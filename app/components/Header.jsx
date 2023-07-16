@@ -9,7 +9,7 @@ export default function Header() {
 		<header className="top-0 fixed w-full z-[3] h-[7rem] md:h-[10rem] bg-white px-8 md:px-16 flex items-center justify-between">
 			<div className="flex items-center gap-x-10">
 				<Image
-					className="w-[6rem] h-max md:w-[8rem]"
+					className="w-[17rem] h-max md:w-[17rem]"
 					src="/fakelogo.png"
 					width={80}
 					height={100}

@@ -20,10 +20,10 @@ export default function RootLayout({ children }) {
 					<section className="flex w-full gap-16 md:gap-28 lg:flex-row flex-col">
 						<div className="lg:w-[30%]">
 							<Image
-								className="w-[6rem] h-max md:w-[8rem] mb-20"
+								className="w-[6rem] h-max md:w-[20rem] mb-20"
 								src="/fakelogo.png"
-                width={80}
-                height={100}
+								width={80}
+								height={100}
 								alt=""
 							/>
 							<p className="text-2xl leading-[3rem] text-[#acc0c4] mb-8 font-medium">

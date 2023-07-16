@@ -1,6 +1,6 @@
 import Chevron from "./icons/Chevron";
 import Web from "./icons/Web";
-import Search from "./icons/search";
+import Search from "./icons/Search";
 import Hamburger from "./icons/Hamburger";
 import Image from "next/image";
 

@@ -3,6 +3,7 @@ import Web from "./icons/Web";
 import Search from "./icons/Search";
 import Hamburger from "./icons/Hamburger";
 import Image from "next/image";
+import HamburgerMenu from "./HamburgerMenu";
 
 export default function Header() {
 	return (
@@ -57,19 +58,17 @@ export default function Header() {
 							</a>
 						</li>
 					</ul>
-					<button className="flex items-center gap-x-3 pl-8">
+					{/* <button className="flex items-center gap-x-3 pl-8">
 						<Web fill={"black"} />
 						<Chevron fill={"fill-textColor"} />
-					</button>
+					</button> */}
 				</nav>
 			</div>
 			<div className="xl:hidden flex items-center gap-x-16">
 				{/* <span>
 					<Search />
 				</span> */}
-				<span>
-					<Hamburger />
-				</span>
+				<HamburgerMenu />
 			</div>
 		</header>
 	);

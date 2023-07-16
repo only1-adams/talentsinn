@@ -28,9 +28,9 @@ export default function Header() {
 					<a className="text-2xl font-semibold m-0" href="">
 						<span>About</span>
 					</a>
-					<span>
+					{/* <span>
 						<Search />
-					</span>
+					</span> */}
 				</nav>
 			</div>
 			<div className="hidden xl:flex items-center">
@@ -64,9 +64,9 @@ export default function Header() {
 				</nav>
 			</div>
 			<div className="xl:hidden flex items-center gap-x-16">
-				<span>
+				{/* <span>
 					<Search />
-				</span>
+				</span> */}
 				<span>
 					<Hamburger />
 				</span>

@@ -25,7 +25,7 @@ export default function SliderOne() {
 					width={400}
 					height={400}
 				/>
-				<div className="py-12 md:py-0 w-full xl:w-[50%] px-10 bg-textColor xl:bg-[#262836cc] flex flex-col items-center justify-center xl:absolute top-0 left-0 h-full z-[2]">
+				<div className="py-12 md:py-0 w-full xl:w-[50%] px-10 bg-textColor xl:bg-[#262836cc] flex flex-col items-center md:justify-center xl:absolute top-0 left-0 h-full z-[2]">
 					<div className="w-full flex flex-col gap-y-10">
 						<span className="text-2xl text-[#acc0c4] font-semibold">
 							I want to...
